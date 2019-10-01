@@ -1,12 +1,11 @@
 /** fonts **/
 
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Sintony&display=swap");
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 p {
-  font-family: "Source Code Pro", monospace;
+  font-family: "Sintony", sans-serif;
 }
 
 p.header {
@@ -38,13 +37,30 @@ h4 {
 
 h4.subheading {
   text-align: center;
+  font-size: 18px;
 }
 
+h5 {
+  font-family: "Playfair Display", "serif";
+}
 .link-text {
   text-decoration: none;
   color: black;
   font-size: 16px;
   font-weight: bold;
+}
+
+.link-text-2 {
+  margin-top: -2vh;
+  color: black;
+  text-decoration-color: black;
+}
+
+.small-text {
+  font-size: 13px;
+  font-family: "Sintony", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /**global container**/

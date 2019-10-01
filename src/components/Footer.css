@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    margin-top: 13vh;
+    background-color: rgb(255, 156, 31);
+    height: 10vh;
+    color: transparent;
+  }
