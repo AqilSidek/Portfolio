@@ -97,3 +97,19 @@
     margin-bottom: 1.3vh;
     box-shadow: 5px 8px 8px 3px rgba(0, 0, 0, 0.308)
 }
+
+.flatlay {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.flatlay-img {
+    width: 70vw;
+}
+
+.screenshot-fridge {
+    width: 22vw;
+    margin-bottom: 1.3vh;
+}
