@@ -33,7 +33,7 @@ export default class PhotoPortfolio extends React.Component {
       <div className="content-container">
         {/* title */}
         <div className="page-header">
-          <h1 className="header">Sizey</h1>
+          <h1 className="header">Photography Portfolio</h1>
         </div>
 
         {/* 2-column section */}
@@ -54,21 +54,31 @@ export default class PhotoPortfolio extends React.Component {
 
           {/* second column */}
           <div className="column-two">
-            <h5>Summary: </h5>
+            <div>
+              <h5>Summary: </h5>
 
-            <h4 className="column-text">
-              My team and I were tasked with creating a human-computer
-              interaction solution to a real world problem of our choice.
-              <br />
-              <br />
-              We decided to tackle the issue of sizing inconsistencies when
-              shopping online for clothes, and explored solutions to help take
-              the guesswork out of choosing the correct size.
-              <br />
-              <br />
-              In the future, this idea could be developed using React as the
-              front-end technology.
-            </h4>
+              <h4 className="column-text">
+                The purpose of this website was to teach myself web development
+                skills and to explore the field. It is also the platform I use
+                as my photography portfolio.
+                <br />
+                <br />
+                The website is an ongoing project/testing ground where I
+                experiment with new elements and designs.
+              </h4>
+            </div>
+            <div>
+            <h5>Hosted Project Link: </h5>
+              <a href="https://web.cs.dal.ca/~sidek">
+                <h4 className="link-text-2">web.cs.dal.ca/~sidek</h4>
+              </a>
+            </div>
+            <div>
+            <h5>Project Source Code: </h5>
+              <a href="https://github.com/AqilSidek/Photography-Portfolio">
+                <h4 className="link-text-2">aqilsidek.</h4>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -153,10 +163,36 @@ export default class PhotoPortfolio extends React.Component {
         {/* project description */}
         <div>
           <h5>About the Project: </h5>
-          <h4 className="column-text">During this project, my team and I discovered literature that examined the relatively slow uptake of shopping for clothes online as opposed to other products such as electronics.  A major factor was that potential buyers were unsure which size would fit them best.  Hesitation with the possibility of having to deal with sizing returns was another contributing factor.  More specifically, the lack of a physical store/person creates a sense of lack of accountability.<br /><br />
-          Based on that, we realized that a tool that could help with determining or suggesting sizes would greatly help customers' confidence when shopping online for clothes.  In the interest of avoiding scope creep in the project, we opted to work based on the assumption that most people would be doing their online shopping on a computer rather than a mobile device, and that most companies would have their sizing measurements made available to the tool.  We decided on the idea of a browser extension as it would be the best platform to enable use across multiple websites.<br /><br />
-          I was responsible for designing both the interface elements and the user's experience of our proposed solution.<br /><br />
-          This idea could easily be expanded into a crowd-sourced system that has an extensive database on various clothes' sizes.  This could then allow for trend analyses and more accurate size suggestions.</h4>
+          <h4 className="column-text">
+            During this project, my team and I discovered literature that
+            examined the relatively slow uptake of shopping for clothes online
+            as opposed to other products such as electronics. A major factor was
+            that potential buyers were unsure which size would fit them best.
+            Hesitation with the possibility of having to deal with sizing
+            returns was another contributing factor. More specifically, the lack
+            of a physical store/person creates a sense of lack of
+            accountability.
+            <br />
+            <br />
+            Based on that, we realized that a tool that could help with
+            determining or suggesting sizes would greatly help customers'
+            confidence when shopping online for clothes. In the interest of
+            avoiding scope creep in the project, we opted to work based on the
+            assumption that most people would be doing their online shopping on
+            a computer rather than a mobile device, and that most companies
+            would have their sizing measurements made available to the tool. We
+            decided on the idea of a browser extension as it would be the best
+            platform to enable use across multiple websites.
+            <br />
+            <br />
+            I was responsible for designing both the interface elements and the
+            user's experience of our proposed solution.
+            <br />
+            <br />
+            This idea could easily be expanded into a crowd-sourced system that
+            has an extensive database on various clothes' sizes. This could then
+            allow for trend analyses and more accurate size suggestions.
+          </h4>
         </div>
 
         <Footer />

@@ -46,14 +46,14 @@ export default class BikeRental extends React.Component {
             <div>
               <h5>Hosted Project Link: </h5>
               <a href="https://aqilsidek.github.io/TopView-Bike-Rental">
-                <h4 className="link-text-2">GitHub.io</h4>
+                <h4 className="link-text-2">aqilsidek.github.io/TopView-Bike-Rental</h4>
               </a>
             </div>
             <div>
               <h5>Project Source Code: </h5>
               <h4>
                 <a href="https://github.com/AqilSidek/TopView-Bike-Rental">
-                  <h4 className="link-text-2">GitHub</h4>
+                  <h4 className="link-text-2">github.com/AqilSidek/TopView-Bike-Rental</h4>
                 </a>
               </h4>
             </div>

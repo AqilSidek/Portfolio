@@ -118,7 +118,7 @@ function Work() {
         {/* second item */}
         <div className="elements">
           <div className="photo">
-            <Link to="photo-portfolio">
+            <Link to="/photography-portfolio/">
               <img src={photoTab} alt="Photography Portfolio" width="300vw" />
             </Link>
           </div>

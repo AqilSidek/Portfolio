@@ -67,7 +67,7 @@ class App extends React.Component {
             <Route path="/sizey" component={Sizey} />
             <Route path="/fridge" component={Fridge} />
             <Route path="/bike-rental" component={BikeRental} />
-            <Route path="/photo-portfolio" component={PhotoPortfolio} />
+            <Route path="/photography-portfolio" component={PhotoPortfolio} />
             <Route path="/aiskrim" component={AisKrim} />
         </div>
       </Router>
