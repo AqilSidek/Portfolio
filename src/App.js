@@ -15,6 +15,7 @@ import Fridge from "./components/pages/works/Fridge";
 import BikeRental from "./components/pages/works/BikeRental";
 import PhotoPortfolio from "./components/pages/works/PhotoPortfolio";
 import AisKrim from "./components/pages/works/AisKrim";
+import Style from "./components/pages/Style";
 
 function Index() {
   return <Home />;
@@ -27,6 +28,11 @@ function WorkComp() {
 function ContactPage() {
   return <Contact />;
 }
+
+function StylePage() {
+  return <Style />;
+}
+
 class App extends React.Component {
   render() {
     return (
@@ -69,6 +75,8 @@ class App extends React.Component {
             <Route path="/bike-rental" component={BikeRental} />
             <Route path="/photography-portfolio" component={PhotoPortfolio} />
             <Route path="/aiskrim" component={AisKrim} />
+
+            <Route path="/style" component={Style} />
         </div>
       </Router>
     );

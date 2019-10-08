@@ -1,8 +1,16 @@
 .footer {
     display: flex;
+    flex-direction: row;
     margin-top: 13vh;
     /* background-color: rgb(255, 156, 31); */
-    background-color: white;
-    height: 5vh;
-    color: black;
+    /* background-color: white; */
+    height: 12vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .socmed {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
   }

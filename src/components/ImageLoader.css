@@ -1,0 +1,120 @@
+/* fade in from the top */
+@keyframes fadeInImgTop {
+  from {
+    opacity: 0;
+    top: -5vh;
+  }
+  to {
+    opacity: 1;
+    top: 0vh;
+  }
+}
+
+/* fade in from the bottom */
+@keyframes fadeInImgBottom {
+  from {
+    opacity: 0;
+    bottom: -5vh;
+  }
+  to {
+    opacity: 1;
+    bottom: 0vh;
+  }
+}
+
+/* fade in from the left */
+@keyframes fadeInImgLeft {
+  from {
+    opacity: 0;
+    left: -5vw;
+  }
+  to {
+    opacity: 1;
+    left: 0vw;
+  }
+}
+
+/* fade in from the right */
+@keyframes fadeInImgRight {
+  from {
+    opacity: 0;
+    right: -15vw;
+  }
+  to {
+    opacity: 1;
+    right: 0vw;
+  }
+}
+
+/* loaded & loading classes */
+.img-loading {
+  opacity: 0;
+}
+
+/* for elements on Work page */
+/* specific animation for phone due to different image dimension */
+.img-loaded-phone2 {
+  animation: fadeInImgTop cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 0.4s;
+  width: 9.3vw;
+}
+
+/* from the top */
+.img-loaded-top {
+  animation: fadeInImgTop cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 0.4s;
+  width: 23vw;
+}
+
+/* from the bottom */
+.img-loaded-bottom {
+  animation: fadeInImgBottom cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 0.4s;
+  width: 23vw;
+}
+
+/* for elements on Home page */
+/* specific animation for phone due to different image dimension */
+.img-loaded-phone {
+  animation: fadeInImgRight cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2.3s;
+  animation-delay: 0.7s;
+  width: 20vw;
+}
+
+/* from the left */
+.img-loaded-left {
+  animation: fadeInImgLeft cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2.3s;
+  animation-delay: 0.7s;
+  width: 35vw;
+}
+
+/* from the right */
+.img-loaded-right {
+  animation: fadeInImgRight cubic-bezier(0.23, 1, 0.32, 1) 1;
+  position: relative;
+  opacity: 0;
+  animation-fill-mode: forwards;
+  animation-duration: 2.3s;
+  animation-delay: 0.7s;
+  width: 35vw;
+}
