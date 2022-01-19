@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* .navelems {
+    display: flex;
+    flex-direction: row;
+} */
+
+.footcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: #ff8b27;
+    transition: 500ms;
+}
