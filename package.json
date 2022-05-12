@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ansi-regex": "^6.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-icons": "^3.7.0",
     "react-lazy-load": "^3.0.13",
     "react-pose": "^4.0.8",
+    "react-responsive": "^9.0.0-beta.8",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.1",
@@ -17,6 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy-production": "react-scripts build && scp -r ./build/* aqil@157.245.208.76:/var/www/aqilsidek.com/html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

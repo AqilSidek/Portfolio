@@ -258,42 +258,17 @@ export default class PhotoPortfolio extends React.Component {
             <div>
               <h5>About the Project: </h5>
               <h4 className="column-text">
-                During this project, my team and I discovered literature that
-                examined the relatively slow uptake of shopping for clothes
-                online as opposed to other products such as electronics. A major
-                factor was that potential buyers were unsure which size would
-                fit them best. Hesitation with the possibility of having to deal
-                with sizing returns was another contributing factor. More
-                specifically, the lack of a physical store/person creates a
-                sense of lack of accountability.
+                This was my first endeavor into web development. Being an avid amateur 
+                photographer, I wanted to create a platform to showcase my photography, 
+                as well as refine my web development skills.
+                It was built using HTML, CSS, and a sprinkling of JavaScript.
                 <br />
                 <br />
               </h4>
               <h4 className="column-text">
-                Based on that, we realized that a tool that could help with
-                determining or suggesting sizes would greatly help customers'
-                confidence when shopping online for clothes. In the interest of
-                avoiding scope creep in the project, we opted to work based on
-                the assumption that most people would be doing their online
-                shopping on a computer rather than a mobile device, and that
-                most companies would have their sizing measurements made
-                available to the tool. We decided on the idea of a browser
-                extension as it would be the best platform to enable use across
-                multiple websites.
+                This site has undergone a few redesigns, currently being in its 3rd iteration.
                 <br />
                 <br />
-              </h4>
-              <h4 className="column-text">
-                I was responsible for designing both the interface elements and
-                the user's experience of our proposed solution.
-                <br />
-                <br />
-              </h4>
-              <h4 className="column-text">
-                This idea could easily be expanded into a crowd-sourced system
-                that has an extensive database on various clothes' sizes. This
-                could then allow for trend analyses and more accurate size
-                suggestions.
               </h4>
             </div>
           </Fade>

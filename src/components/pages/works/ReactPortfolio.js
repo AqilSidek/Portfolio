@@ -153,6 +153,13 @@ export default class ReactPortfolio extends React.Component {
               <br />
               <br />
               <h4 className="column-text">
+                On the backend, I set up a cloud server via DigitalOcean then deployed 
+                the React code using Nginx. I also added a script to the package.json file 
+                to automate the deployment of any updates to my website.
+              </h4>
+              <br />
+              <br />
+              <h4 className="column-text">
                 I started by looking at the portfolios of other front end web
                 developers and UI/UX designers, as well as looking to websites
                 such as Dribble for inspiration. From there, I created several

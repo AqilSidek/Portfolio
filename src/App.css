@@ -69,6 +69,12 @@ h5 {
 }
 
 /**global container**/
+
+/** for mobile phones only **/
+[class *= 'col-'] {
+  width: 100%;
+  background-color: blue;
+}
 .container {
   display: flex;
   flex-direction: column;

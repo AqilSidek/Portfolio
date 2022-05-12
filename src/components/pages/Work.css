@@ -18,6 +18,20 @@
     flex-grow: 1;
 }
 
+@media (max-width: 45em) {
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
 .elements {
     display: flex;
     flex-direction: column;

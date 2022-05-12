@@ -11,9 +11,11 @@
 
 .splash-gif {
   display: flex;
-  width: 30%;
+  width: 20rem;
+  height: auto;
   padding-bottom: 0.5vh;
 }
+
 
 .arrow {
   display: flex;
@@ -53,6 +55,28 @@
   background-position-x: 13vw;
   background-repeat: no-repeat;
   background-size: 50% 50%;
+}
+
+@media (max-width: 45em) {
+  .summary-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .summary-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .summary-image-left {
+    padding-top: 10vh;
+  }
+
+  .summary-image-right {
+    padding-top: 10vh;
+  }
 }
 
 .summary-text-left {

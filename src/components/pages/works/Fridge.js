@@ -59,17 +59,9 @@ export default class Fridge extends React.Component {
                 <h5>Summary: </h5>
 
                 <h4 className="column-text">
-                  My team and I were tasked with creating a human-computer
-                  interaction solution to a real world problem of our choice.
-                  <br />
-                  <br />
-                  We decided to tackle the issue of sizing inconsistencies when
-                  shopping online for clothes, and explored solutions to help
-                  take the guesswork out of choosing the correct size.
-                  <br />
-                  <br />
-                  In the future, this idea could be developed using React as the
-                  front-end technology.
+                  A UI design for a potential app that is aimed at helping students 
+                  eat better meals while tackling the age-old question, "what can I 
+                  cook with what I already have?".
                 </h4>
               </div>
             </Fade>
@@ -192,10 +184,10 @@ export default class Fridge extends React.Component {
               </h4>
               <h4 className="column-text">
                 A <i>user profile</i> would have 3 fields; dietary restriction,
-                which meals to recommend recipes, and nutrition goals. The app
+                which meals (breakfast, lunch, dinner) to recommend recipes for, and nutrition goals. The app
                 will use information from all 3 settings as a filter when
                 recommending recipes. Dietary restrictions would include halal,
-                kosher, dairy-free, vegetarian, gluten-etc, etc. The user can
+                kosher, dairy-free, vegetarian, gluten-freeN, etc. The user can
                 also determine which meals they would like to receive recipe
                 recommendations for (breakfast, lunch, dinner). To encourage
                 healthier eating habits, I also included the ability to track
@@ -239,6 +231,8 @@ export default class Fridge extends React.Component {
             </div>
           </Fade>
         </LazyLoad>
+
+        <Footer />
       </div>
     );
   }
