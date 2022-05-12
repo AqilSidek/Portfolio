@@ -14,7 +14,7 @@ import "../../App.css";
 import Me from "../../media/Me.jpg";
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
-export default class Contact extends React.Component {
+export default class HelloThere extends React.Component {
   render() {
     const email = "aqil.zakwan@outlook.com";
 
@@ -28,12 +28,14 @@ export default class Contact extends React.Component {
               <div>
                 <img src={Me} alt="Me sliding down" className="about-img" />
               </div>
+              <div className="about-header">
+                <Fade left><h2 className="about-font">About Me</h2></Fade>
+              </div>
             </Fade>
 
             {/* Blurb about me */}
             <Fade right>
               <div className="column-two">
-                <Fade left><h2 className="about-header">About Me</h2></Fade>
                 <h4 className="about-descr">
                   I am a front end web developer that blends strong technical
                   skills, excellent communication abilities, and a knack for

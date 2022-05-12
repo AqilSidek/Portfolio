@@ -59,8 +59,7 @@ export default class BikeRental extends React.Component {
 
                   <h4 className="column-text">
                     This is a front end prototype for a bike rental booking
-                    system created as part of my interview process for TopView
-                    Sightseeing.
+                    system.
                   </h4>
                 </div>
                 <div>
@@ -147,10 +146,9 @@ export default class BikeRental extends React.Component {
             <div>
               <h5>About the Project: </h5>
               <h4 className="column-text">
-                This project was the coding challenge given as part of TopView
-                Sightseeing's interview process. I was tasked with creating the
-                front end for a bicycle rental booking system with the freedom
-                to utilize any tech stack I wished. I opted to use ReactJS as I
+                This project was a coding challenge to create the
+                front end for a bicycle rental booking system. I had the freedom
+                to utilize any tech stack I wished and opted to use ReactJS as I
                 knew I could built a more robust front end platform.
                 <br />
                 <br />

@@ -72,7 +72,7 @@ export default class Home extends React.Component {
 
         {/* project summaries */}
         <div>
-          {/* React-based portfolio website */}
+          {/* TopView Bike Rental */}
           <LazyLoad>
             <Fade>
               <div className="content-container">
@@ -80,18 +80,23 @@ export default class Home extends React.Component {
                   <Fade left>
                     <div className="summary-text-right">
                       <p className="summary">
-                        A website built entirely using ReactJS showcasing my
-                        coding and UI/UX design work.
+                      A front end prototype for a bicycle rental system built
+                        using ReactJS.
                       </p>
-                      <Link to="/react-portfolio/" className="link-text">
-                        <p>Learn more about my React-based portfolio ></p>
+                      <Link to="/bike-rental/" className="link-text">
+                        <p>Learn more about the prototype ></p>
                       </Link>
+                      <a href="https://aqilsidek.github.io/TopView-Bike-Rental"
+                        className="link-text"
+                      >
+                        <p>Check out the prototype ></p>
+                      </a>
                     </div>
                   </Fade>
                   <Fade right>
                     <div className="summary-image-right">
                       <img
-                        src={reactTab}
+                        src={bikeTab}
                         alt="React-Based Portfolio"
                         height="350vw"
                       />
@@ -133,7 +138,7 @@ export default class Home extends React.Component {
           </LazyLoad>
 
           {/* Fridge app UI */}
-          <LazyLoad>
+          {/* <LazyLoad>
             <Fade>
               <div className="content-container">
                 <div className="summary-phone">
@@ -156,39 +161,9 @@ export default class Home extends React.Component {
                 </div>
               </div>
             </Fade>
-          </LazyLoad>
+          </LazyLoad> */}
 
           {/* Photography portfolio website */}
-          <LazyLoad>
-            <Fade>
-              <div className="content-container">
-                <div className="summary-left">
-                  <Fade right>
-                    <div className="summary-text-left">
-                      <p className="summary">
-                        A photography portfolio I built using HTML, CSS, and
-                        JavaScript.
-                      </p>
-                      <Link to="/photography-portfolio/" className="link-text">
-                        <p>Learn more about my coded photography portfolio ></p>
-                      </Link>
-                    </div>
-                  </Fade>
-                  <Fade left>
-                    <div className="summary-image-left">
-                      <img
-                        src={photoTab}
-                        alt="Photography Portfolio"
-                        height="350vw"
-                      />
-                    </div>
-                  </Fade>
-                </div>
-              </div>
-            </Fade>
-          </LazyLoad>
-
-          {/* Ais Krim website UI */}
           <LazyLoad>
             <Fade>
               <div className="content-container">
@@ -196,52 +171,16 @@ export default class Home extends React.Component {
                   <Fade left>
                     <div className="summary-text-right">
                       <p className="summary">
-                        A website concept for a vegan frozen yogurt shop.
+                        A photography portfolio I built using HTML, CSS, and JavaScript.
                       </p>
-                      <Link to="/aiskrim/" className="link-text">
-                        <p>Learn more about Ais Krim ></p>
+                      <Link to="photography-portfolio" className="link-text">
+                        <p>Learn more about my coded photography portfolio ></p>
                       </Link>
                     </div>
                   </Fade>
                   <Fade right>
                     <div className="summary-image-right">
-                      <img src={aiskrimTab} alt="Ais Krim" height="350vw" />
-                    </div>
-                  </Fade>
-                </div>
-              </div>
-            </Fade>
-          </LazyLoad>
-
-          {/* TopView Bike Rental */}
-          <LazyLoad>
-            <Fade>
-              <div className="content-container">
-                <div className="summary-left">
-                  <Fade right>
-                    <div className="summary-text-left">
-                      <p className="summary">
-                        A front end prototype for a bicycle rental system built
-                        using ReactJS.
-                      </p>
-                      <Link to="/photography-portfolio/" className="link-text">
-                        <p>Learn more about the prototype ></p>
-                      </Link>
-                      <a
-                        href="https://aqilsidek.github.io/TopView-Bike-Rental"
-                        className="link-text"
-                      >
-                        <p>Check out the prototype ></p>
-                      </a>
-                    </div>
-                  </Fade>
-                  <Fade left>
-                    <div className="summary-image-left">
-                      <img
-                        src={bikeTab}
-                        alt="Photography Portfolio"
-                        height="350vw"
-                      />
+                      <img src={photoTab} alt="Ais Krim" height="350vw" />
                     </div>
                   </Fade>
                 </div>

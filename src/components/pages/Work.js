@@ -15,9 +15,10 @@ import "./Work.css";
 import sizeyTab from "../../media/sizey-screen.png";
 import fridgePhone from "../../media/fridge-screen.png";
 import photoTab from "../../media/photo-screen.png";
-import aiskrimTab from "../../media/ais-krim-screen.png";
+// import aiskrimTab from "../../media/ais-krim-screen.png";
 import portfolioTab from "../../media/portfolio-screen.png";
 import topviewTab from "../../media/topview-screen.png";
+import placeholderTab from '../../media/FoodRoulette/comingsoon.jpeg'
 
 function Work() {
   return (
@@ -38,7 +39,7 @@ function Work() {
 
       {/* -----------------------1st Row--------------------------------- */}
       <div className="projects">
-        {/* first element */}
+        {/* first element - React Portfolio */}
         <LazyLoad>
           <div className="elements">
             <Fade down>
@@ -58,14 +59,14 @@ function Work() {
                   JavaScript and the ReactJS library.
                 </p>
                 <Link to="/react-portfolio/" className="link-text small-text">
-                  <p>Learn more about my coded portfolio ></p>
+                  <p>Learn more about my coded portfolio </p>
                 </Link>
               </div>
             </Fade>
           </div>
         </LazyLoad>
 
-        {/* second element */}
+        {/* second element - Sizey */}
         <LazyLoad>
           <div className="elements">
             <Fade down>
@@ -85,14 +86,14 @@ function Work() {
                   out your size.
                 </p>
                 <Link to="/sizey/" className="link-text small-text">
-                  <p>Learn more about Sizey ></p>
+                  <p>Learn more about Sizey </p>
                 </Link>
               </div>
             </Fade>
           </div>
         </LazyLoad>
 
-        {/* third element */}
+        {/* third element - Fridge UI */}
         <LazyLoad>
           <div className="elements">
             <Fade down>
@@ -112,7 +113,7 @@ function Work() {
                   suggest recipes accordingly.
                 </p>
                 <Link to="/fridge/" className="link-text small-text">
-                  <p>Learn more about Fridge ></p>
+                  <p>Learn more about Fridge </p>
                 </Link>
               </div>
             </Fade>
@@ -122,7 +123,7 @@ function Work() {
 
       {/* -----------------------2nd Row--------------------------------- */}
       <div className="projects">
-        {/* first item */}
+        {/* first element - Bike Rental */}
         <LazyLoad>
           <div className="elements">
             <Fade down>
@@ -146,14 +147,14 @@ function Work() {
                   using JavaScript and ReactJS library.
                 </p>
                 <Link to="/bike-rental/" className="link-text small-text">
-                  <p>Learn more about the bike rental booking prototype ></p>
+                  <p>Learn more about the bike rental booking prototype </p>
                 </Link>
               </div>
             </Fade>
           </div>
         </LazyLoad>
 
-        {/* second item */}
+        {/* second element - Photography Portfolio */}
         <LazyLoad>
           <div className="elements">
             <Fade down>
@@ -179,15 +180,39 @@ function Work() {
                   to="/photography-portfolio/"
                   className="link-text small-text"
                 >
-                  <p>Learn more about my coded photoraphy portfolio ></p>
+                  <p>Learn more about my coded photoraphy portfolio </p>
                 </Link>
               </div>
             </Fade>
           </div>
         </LazyLoad>
 
-        {/* third item */}
+        {/* third element - Food Roulette */}
         <LazyLoad>
+          <div className='elements'>
+            <Fade down>
+              <div className='photo'>
+                <Link to='/foodroulette'>
+                  <img src={placeholderTab} alt='Food Roulette' height='220vw' />
+                </Link>
+              </div>
+            </Fade>
+            <Fade up>
+              <div className='description'>
+                <h4>
+                  <strong>Food Roulette</strong>
+                </h4>
+                <p className='subheading-text'>Website and partner app to pick where to eat</p>
+                <Link to="/foodroulette/" className="link-text small-text">
+                  <p>Learn more about Food Roulette </p>
+                </Link>
+              </div>
+            </Fade>
+          </div>
+        </LazyLoad>
+
+        {/* third element - Ais Krim */}
+        {/* <LazyLoad>
           <div className="elements">
             <Fade down>
               <div className="photo">
@@ -205,13 +230,39 @@ function Work() {
                   Website concept for a vegan frozen yogurt shop.
                 </p>
                 <Link to="/aiskrim/" className="link-text small-text">
-                  <p>Learn more about Ais Krim ></p>
+                  <p>Learn more about Ais Krim </p>
+                </Link>
+              </div>
+            </Fade>
+          </div>
+        </LazyLoad> */}
+      </div>
+
+      {/* -----------------------3rd Row--------------------------------- */}
+      {/* <div className='projects'>
+        <LazyLoad>
+          <div className='elements'>
+            <Fade down>
+              <div className='photo'>
+                <Link to='/foodroulette'>
+                  <img src={placeholderTab} alt='Food Roulette' height='220vw' />
+                </Link>
+              </div>
+            </Fade>
+            <Fade up>
+              <div className='description'>
+                <h4>
+                  <strong>Food Roulette</strong>
+                </h4>
+                <p className='subheading-text'>Website and partner app to pick where to eat</p>
+                <Link to="/foodroulette/" className="link-text small-text">
+                  <p>Learn more about Food Roulette </p>
                 </Link>
               </div>
             </Fade>
           </div>
         </LazyLoad>
-      </div>
+      </div> */}
 
       {/* Footer */}
       <LazyLoad>

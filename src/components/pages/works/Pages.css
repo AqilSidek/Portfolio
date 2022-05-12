@@ -4,6 +4,28 @@
     margin-top: -8vh;
 }
 
+@media (max-width: 45em) {
+    .brief-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-img {
+        display: flex;
+        margin-bottom: -18vh;
+        width: 50vw;
+    }
+
+    .about-header {
+        display: flex;
+        margin-right: -8vw;
+        margin-bottom: -20vh;
+    }
+
+}
+
 .column-one {
     display: flex;
     flex-direction: column;
@@ -109,6 +131,14 @@
     width: 70vw;
 }
 
+.comingsoon {
+    display: flex;
+    justify-content: center;
+}
+.comingsoon-img {
+    width: 50%;
+}
+
 .screenshot-fridge {
     width: 22vw;
     margin-bottom: 1.3vh;
@@ -116,26 +146,32 @@
 
 .about-img {
     display: flex;
-    width: 35vw;
+    width: 40vw;
     margin-left: 1vw;
     padding-right: 5vw;
     margin-top: 13vh;
 }
 
 .about-header {
-    font-family: "Playfair Display", "serif";
-    margin-top: 18vh;
-    margin-left: -12.5vw;
-    font-size: 38px;
-    background: white;
-    padding-left: 1vw;
+    padding-right: 2vw;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
 
 .about-descr {
-    margin-top: -2vh;
+    margin-top: 18vh;
     margin-left: -5vw;
+}
+
+.about-font {
+    font-family: "Playfair Display", "serif";
+    margin-top: 18vh;
+    margin-left: -15vw;
+    font-size: 38px;
+    background: white;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .contact-info {

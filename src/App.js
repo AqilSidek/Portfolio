@@ -8,7 +8,7 @@ import "./App.css";
 // components
 import Home from "./components/pages/Home.js";
 import Work from "./components/pages/Work.js";
-import Contact from "./components/pages/Contact.js";
+import HelloTherePage from "./components/pages/HelloThere.js";
 import Sizey from "./components/pages/works/Sizey";
 import ReactPortfolio from "./components/pages/works/ReactPortfolio";
 import Fridge from "./components/pages/works/Fridge";
@@ -16,6 +16,7 @@ import BikeRental from "./components/pages/works/BikeRental";
 import PhotoPortfolio from "./components/pages/works/PhotoPortfolio";
 import AisKrim from "./components/pages/works/AisKrim";
 import Style from "./components/pages/Style";
+import FoodRoulette from './components/pages/works/FoodRoulette';
 
 function Index() {
   return <Home />;
@@ -26,7 +27,7 @@ function WorkComp() {
 }
 
 function ContactPage() {
-  return <Contact />;
+  return <HelloTherePage />;
 }
 
 function StylePage() {
@@ -56,8 +57,8 @@ class App extends React.Component {
                 </Link>
               </div>
               <div className="link-item">
-                <Link to="/contact/" className="link-text">
-                  Contact
+                <Link to="/hellothere/" className="link-text">
+                  Me
                 </Link>
               </div>
             </div>
@@ -66,9 +67,10 @@ class App extends React.Component {
           {/* Navbar routes */}
           <Route path="/" exact component={Index} />
           <Route path="/work/" component={WorkComp} />
-          <Route path="/contact/" component={ContactPage} />
+          <Route path="/hellothere/" component={ContactPage} />
 
           {/* Routes to specific project pages */}
+            <Route path='/foodroulette' component={FoodRoulette} />
             <Route path="/react-portfolio" component={ReactPortfolio} />
             <Route path="/sizey" component={Sizey} />
             <Route path="/fridge" component={Fridge} />

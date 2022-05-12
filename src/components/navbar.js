@@ -1,7 +1,7 @@
 import "./navbar.css";
 import React from "react";
 import { navbarIcon } from "../media/aq.png";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 
 export default class Navbar extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class Navbar extends React.Component {
         <div className="links-wrapper">
           <div className="link-item">Home</div>
           <div className="link-item">Work</div>
-          <div className="link-item">Contact</div>
+          <div className="link-item">Hello There</div>
         </div>
       </div>
     );

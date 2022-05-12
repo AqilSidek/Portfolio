@@ -59,7 +59,7 @@ export default class AisKrim extends React.Component {
 
                 <h4 className="column-text">
                   This project was an exercise in designing a website using
-                  Adobe XD.
+                  Adobe XD, as well as, refreshing my knowledge of the design process.
                   <br />
                   <br />
                   In the future, this website can be implemented using React or
@@ -134,32 +134,28 @@ export default class AisKrim extends React.Component {
             <div>
               <h5>About the Project: </h5>
               <h4 className="column-text">
-                During this project, my team and I discovered literature that
-                examined the relatively slow uptake of shopping for clothes
-                online as opposed to other products such as electronics. A major
-                factor was that potential buyers were unsure which size would
-                fit them best. Hesitation with the possibility of having to deal
-                with sizing returns was another contributing factor. More
-                specifically, the lack of a physical store/person creates a
-                sense of lack of accountability.
+                This project was a personal exercise in familiarising myself with using UI software, 
+                specifically Adobe XD. It was also a personal exercise in going through the motions of 
+                designing a website.
                 <br />
                 <br />
               </h4>
               <h4 className="column-text">
-                Most of the time, when a potential customer visits a
-                restaurant's website, it is usually either to check the menu,
-                find out it's location, and/or to find the restaurant's contact
-                information. With this mind, I visited multiple restaurant's
-                websites and studies the user interface and experience of each
-                one. I noticed that many restaurants placed such information on
-                separate pages.
+                I created a basic user story for the website, in this case a new local ice cream business. 
+                I then put myself into the role of the designer/developer, researching what kinds of 
+                information other local eateries and dessert shops offered on their information. Then, I 
+                created the designs using Adobe XD, for the hypothetical client to review before I started 
+                writing any code.
                 <br />
                 <br />
               </h4>
               <h4 className="column-text">
-                As I explored the websites, I realized that for most
-                restaurants, a simple one-page scroll could suffice. Thus, this
-                is the concept I applied when designing the website.
+                Most of the time, when a potential customer visits a restaurant's website, it is usually either 
+                to check the menu, find out it's location, and/or to find the restaurant's contact information. 
+                With this mind, I visited multiple restaurant's websites and studies the user interface and 
+                experience of each one. I noticed that many restaurants placed such information on separate pages.
+                Upon further exploration, I realized that for most restaurants, a simple one-page scroll 
+                could suffice. Thus, this is the concept I applied when designing the website.
               </h4>
             </div>
           </Fade>
